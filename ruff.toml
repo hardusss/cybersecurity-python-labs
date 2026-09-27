@@ -1,0 +1,14 @@
+# Ruff settings for the whole repository
+line-length = 79
+target-version = "py310"
+
+[lint]
+# E/W - pycodestyle (PEP 8), F - pyflakes, I - isort,
+# N - pep8-naming, B - bugbear, SIM - simplify, D - docstrings
+select = ["E", "W", "F", "I", "N", "B", "SIM", "D"]
+
+[lint.pydocstyle]
+convention = "pep257"
+
+[format]
+quote-style = "double"

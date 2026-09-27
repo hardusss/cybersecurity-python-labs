@@ -1,0 +1,25 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Ruff cache
+.ruff_cache/
+
+# Build and packaging
+build/
+dist/
+*.egg-info/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+
+# Lab data: hashes of passwords and auth logs must not get into the repo
+labs/*/data/
